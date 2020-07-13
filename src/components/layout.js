@@ -11,7 +11,7 @@ const Layout = ({ title, children }) => {
     <div style={{
       height: `100%`,
       display: `flex`,
-      flexDirection: `column`
+      flexDirection: `column`,
     }}>
       <header style={{
         paddingTop: `${rhythm(1)}`,
@@ -32,7 +32,7 @@ const Layout = ({ title, children }) => {
       <main style={{
         paddingTop: `${rhythm(1)}`,
         paddingBottom: `${rhythm(1)}`,
-        flex: 1
+        flex: 1,
       }}>
         <Container>
           {children}

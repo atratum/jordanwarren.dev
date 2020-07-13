@@ -17,7 +17,7 @@ const BlogIndex = ({ data }) => {
         return (
           <article key={node.fields.slug}>
             <header style={{
-              marginBottom: rhythm(.5)
+              marginBottom: rhythm(.5),
             }}>
               <h2 style={{
                 marginBottom: 0,
