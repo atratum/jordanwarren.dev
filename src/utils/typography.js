@@ -1,17 +1,37 @@
-import Typography from "typography"
-import Wordpress2016 from "typography-theme-wordpress-2016"
+import Typography from 'typography'
 
-Wordpress2016.overrideThemeStyles = () => {
-  return {
-    "a.gatsby-resp-image-link": {
-      boxShadow: `none`,
+const typography = new Typography({
+  baseFontSize: '18px',
+  baseLineHeight: 1.666,
+  googleFonts: [
+    {
+      name: "Source Serif Pro",
+      styles: ["600"],
     },
-  }
-}
-
-delete Wordpress2016.googleFonts
-
-const typography = new Typography(Wordpress2016)
+    {
+      name: "Source Sans Pro",
+      styles: ["400", "400i", "700"],
+    },
+  ],
+  headerFontFamily: ["Source Serif Pro", "sans-serif"],
+  bodyFontFamily: ["Source Sans Pro", "sans-serif"],
+  headerColor: "hsla(0,0%,10%,1)",
+  bodyColor: "hsla(0,0%,10%,1)",
+  headerWeight: 600,
+  bodyWeight: 400,
+  boldWeight: 700,
+  overrideStyles: () => ({
+    a: {
+      color: "hsla(168,62%,36%,1)",
+      textDecoration: "none",
+      transition: "all ease-in-out 250ms",
+    },
+    "a:hover,a:active": {
+      color: "hsla(168,49%,23%,1)",
+      textDecoration: "underline",
+    },
+  }),
+});
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {
