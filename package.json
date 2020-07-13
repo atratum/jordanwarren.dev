@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "jordanwarren.dev",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "The digital homepage of Jordan Warren",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jordan Warren <jordanwarren@protonmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/atratum/jordanwarren.dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.23.12",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/atratum/jordanwarren.dev#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/atratum/jordanwarren.dev.git"
   },
   "scripts": {
     "build": "gatsby build",
