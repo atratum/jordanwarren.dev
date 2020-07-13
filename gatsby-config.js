@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `jordanwarren.dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jordan Warren`,
+      summary: `Cyber security hobbyist and electronic tinkerer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `The digital homepage of Jordan Warren.`,
+    siteUrl: `https://jordanwarren.dev`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `_atratum`,
     },
   },
   plugins: [
